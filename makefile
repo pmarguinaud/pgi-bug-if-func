@@ -1,4 +1,4 @@
-FC = /home/gmap/mrpm/marguina/install/gmkpack_support/wrapper/PGI217/mpif90 -mp
+FC = pgf90
 
 main.x: main.o turb_ver1.o turb_ver2.o modi_gradient_m.o mode_prandtl.o
 	$(FC) -o main.x main.o turb_ver1.o turb_ver2.o modi_gradient_m.o mode_prandtl.o
