@@ -12,3 +12,5 @@ turb_ver1.o: turb_ver1.F90 modi_gradient_m.o mode_prandtl.o
 %.o : %.F90
 	$(FC) -c $<
 	
+clean:
+	\rm -f *.x *.o *.mod
